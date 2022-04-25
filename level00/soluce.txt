@@ -1,0 +1,11 @@
+To find all the file with permissions for flag00
+find / -group flag00 2>dev/null
+
+there only 2 containing the same thing:
+then cat the file at: /rofs/usr/sbin/john
+
+and get the code: cdiiddwpgswtgt
+
+use dcode.fr to discover it s coded in cesar, and the translation is: nottoohardhere
+
+we cant now su flag00 to test it and get our token to connect to level01.
